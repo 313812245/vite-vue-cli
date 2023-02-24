@@ -1,0 +1,45 @@
+{
+  "defaultSeverity": "warning",
+  "extends": ["tslint:recommended"],
+  "linterOptions": {
+    "exclude": ["node_modules/**"]
+  },
+  "rules": {
+    "quotemark": [true, "single"],
+    "indent": [true, "spaces", 4],
+    "interface-name": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "no-consecutive-blank-lines": false,
+    "semicolon": [true, "never"],
+    "space-before-function-paren": false,
+    "trailing-comma": [true, { "multiline": "ignore", "singleline": "never" }],
+    "arrow-parens": false,
+    "no-var-keyword": false,
+    "no-var-requires": false,
+    "curly": [true, "ignore-same-line"],
+    "variable-name": false,
+    "no-string-literal": false,
+    "prefer-const": false,
+    "object-literal-key-quotes": false,
+    "object-literal-shorthand": false,
+    "max-line-length": [
+      true,
+      { "limit": 200, "ignore-pattern": "^import |^export {(.*?)}" }
+    ],
+    "no-console": false,
+    "only-arrow-functions": false,
+    "no-unused-expression": false,
+    "no-empty": false,
+    "jsdoc-format": false,
+    "radix": false,
+    "no-shadowed-variable": false,
+    "prefer-for-of": false,
+    "one-variable-per-declaration": false,
+    "no-conditional-assignment": false,
+    "member-access": false,
+    "max-classes-per-file": [true, 10],
+    "await-promise": false,
+    "no-async-without-await": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    // Raise error on expressions and declarations with an implied any type
+    // 配置为false，不然在引入没有声明类型的模块时，会抛出错误
+    "noImplicitAny": false,
+    "baseUrl": ".",
+    "types": ["vite/client", "node", "webpack-env", "./../element-ui/types"],
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "src/images.d.ts"
+  ],
+  "exclude": ["node_modules"]
+}

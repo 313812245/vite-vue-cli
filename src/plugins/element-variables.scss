@@ -1,0 +1,70 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+$--color-white: #ffffff;
+$--color-black: hsl(0, 0%, 0%);
+$--color-primary: #517eff;
+$--color-primary-light-1: mix(
+  $--color-white,
+  $--color-primary,
+  10%
+); /* 53a8ff */
+$--color-primary-light-2: mix(
+  $--color-white,
+  $--color-primary,
+  20%
+); /* 66b1ff */
+$--color-primary-light-3: mix(
+  $--color-white,
+  $--color-primary,
+  30%
+); /* 79bbff */
+$--color-primary-light-4: mix(
+  $--color-white,
+  $--color-primary,
+  40%
+); /* 8cc5ff */
+$--color-primary-light-5: mix(
+  $--color-white,
+  $--color-primary,
+  50%
+); /* a0cfff */
+$--color-primary-light-6: mix(
+  $--color-white,
+  $--color-primary,
+  60%
+); /* b3d8ff */
+$--color-primary-light-7: mix(
+  $--color-white,
+  $--color-primary,
+  70%
+); /* c6e2ff */
+$--color-primary-light-8: mix(
+  $--color-white,
+  $--color-primary,
+  80%
+); /* d9ecff */
+$--color-primary-light-9: mix(
+  $--color-white,
+  $--color-primary,
+  90%
+); /* ecf5ff */
+
+$--color-success: #54b624;
+$--color-warning: #f2950c;
+$--color-danger: #f56c6c;
+$--color-info: #666666;
+
+$--color-text-primary: #333333;
+$--color-text-regular: #666666;
+$--color-text-placeholder: #bfbfbf;
+
+$--border-color-base: #d9d9d9;
+$--border-color-lighter: #e9e9e9;
+
+/* icon font path, required */
+$--font-path: 'element-ui/lib/theme-chalk/fonts';
+
+@import 'element-ui/packages/theme-chalk/src/index.scss';
